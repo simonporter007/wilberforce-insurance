@@ -28,7 +28,7 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "wilberforce travel insurance"
+		brand = "Wilberforce Travel Insurance"
 
 		[params.navigation.links]
 			about     = "About"
@@ -48,10 +48,11 @@ theme = "hugo-creative-theme"
 
 	# About section
 	[params.about]
-		headline    = "In business since 1924!"
-		descriptionOne = "Wilberforce travel insurance have partnered with Just Insurance Agents Limited – one of the UKs leading providers of specialist Travel Insurance. Since 2004 Just Insurance Agents Limited has established itself as a market leader in the delivery of high quality and competitive travel insurance."
-        descriptionTwo = "Just Insurance Agents Limited, work with a panel of insurers to offer a range of policies to suit all needs. You can compare and buy travel insurance products easily online, simply select Get a Quote, enter your travel details and select the cover that suits your needs most."
-        descriptionThree = "So whether you are planning to lie on a beach, slide down a mountain, travel the seas or see the sights getting the right travel insurance couldn’t be easier.\nInsure your next adventure through us."
+		headline    = "Wilberforce Insurance: in business since 1924"
+		descriptionOne = "Wilberforce Travel Insurance have partnered with Just Insurance Agents to offer easy access to our competitive travel policies."
+        # descriptionTwo = "Just Insurance Agents work with a panel of insurers to offer a range of policies to suit all needs. You can compare and buy travel insurance products easily online, simply select Get a Quote, enter your travel details and select the cover that suits your needs most."
+        descriptionTwo = "Click Get a Quote, enter your details and select the cover that suits you best."
+        descriptionThree = "Whether you're planning to lie on a beach, slide down a mountain, travel the seas or see the sights, getting the right travel insurance couldn’t be easier.\nInsure your next adventure with us."
 		buttonText  = "Find out more"
 
 
@@ -61,24 +62,24 @@ theme = "hugo-creative-theme"
         buttonText = "Get A Quote Now!"
 
         [[params.services.list]]
-	    icon = "maki make-fw maki-airport"
-	    title = "Travel Insurance"
-	    description = "Wilberforce travel insurance gives you access to a panel of insurers so that you can compare travel insurance prices and choose the policy that suits your needs best."
-
-        [[params.services.list]]
-            icon = "maki make-fw maki-skiing"
-            title = "Winter Sports"
-            description = "Cover is available for winter sports - ski and snowboard insurance, cruise insurance, travel insurance with pre-existing medical conditions and travel insurance for over 60, over 65 and over 70 years of age."
-
-        [[params.services.list]]
             icon = "maki make-fw maki-rocket"
             title = "Single Trip"
-            description = "Wilberforce travel insurance provides an instant solution for single trip travel insurance for a range of different holiday types and holiday makers."
+            description = "We provide an instant solution for single trip travel insurance for a range of different holiday types and holiday makers."
 
         [[params.services.list]]
             icon = "maki make-fw maki-lodging"
             title = "Multi Trip"
-            description = "Wilberforce travel insurance is able to offer both single trip travel insurance and annual multi trip  policies for individuals, couples, families and groups."
+            description = "We can offer both single trip travel insurance and annual multi trip  policies for individuals, couples, families and groups."
+
+        [[params.services.list]]
+	    icon = "maki make-fw maki-airport"
+	    title = "Travel Insurance"
+	    description = "Cruise insurance, insurance for pre-existing medical conditions and travel insurance for over 60, over 65 and over 70s"
+
+        [[params.services.list]]
+            icon = "maki make-fw maki-skiing"
+            title = "Winter Sports"
+            description = "Specialist ski and snowboard travel insurance."
 
     # Portfolio modals
 	[params.portfolio.modal]
@@ -97,9 +98,9 @@ theme = "hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Contact us!"
-		description = "Send us a message or get in touch for information on what else we can offer."
-		phone = "+44 (0)1482 326872"
+		headline = "Contact Us"
+		description = "No call centers - we can claim to be Hull’s oldest independent Insurance Brokers."
+		phone = "01482 326872"
 		email = "hello@wilberforceinsurance.co.uk"
 		link = "www.wilberforceinsurance.co.uk"
 

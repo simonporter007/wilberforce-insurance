@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'PT Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -499,6 +499,18 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+
+/* Overrides */
 .blue {
-	color: rgb(104,201,237);
+    /*color: rgb(104,201,237);*/
+    color: #60c7ee;
 }
+
+.header-content-inner h1 {
+    line-height: 0.9;
+}
+.bg-primary {
+    /*background: rgb(104,201,237);*/
+    background: #60c7ee;
+}
+
