@@ -28,18 +28,20 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "Wilberforce Travel Insurance"
+		brand = "wilberforce travel insurance"
 
 		[params.navigation.links]
 			about     = "About"
 			services  = "Quote"
 			contact   = "Contact"
+			home	  = "Wilberforce Insurance"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Wilberforce Travel Insurance"
+		slogan     = "wilberforce"
+		sloganTwo  = "travel insurance"
 		subtitle   = ""
 		buttonText = "About Us"
 
@@ -59,9 +61,9 @@ theme = "hugo-creative-theme"
         buttonText = "Get A Quote Now!"
 
         [[params.services.list]]
-			icon = "maki make-fw maki-airport"
-			title = "Travel Insurance"
-			description = "Wilberforce travel insurance gives you access to a panel of insurers so that you can compare travel insurance prices and choose the policy that suits your needs best."
+	    icon = "maki make-fw maki-airport"
+	    title = "Travel Insurance"
+	    description = "Wilberforce travel insurance gives you access to a panel of insurers so that you can compare travel insurance prices and choose the policy that suits your needs best."
 
         [[params.services.list]]
             icon = "maki make-fw maki-skiing"
@@ -97,8 +99,9 @@ theme = "hugo-creative-theme"
 	[params.contact]
 		headline = "Contact us!"
 		description = "Send us a message or get in touch for information on what else we can offer."
-		phone = "+44 (0)1482 627383"
+		phone = "+44 (0)1482 326872"
 		email = "hello@wilberforceinsurance.co.uk"
+		link = "www.wilberforceinsurance.co.uk"
 
         [params.contact.form]
             # Set custom strings for the form if your native

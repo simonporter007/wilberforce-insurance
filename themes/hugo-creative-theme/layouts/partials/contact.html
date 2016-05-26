@@ -15,6 +15,10 @@
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                 <p><a href="mailto:{{ with .Site.Params.contact.email }}{{ . }}{{ end }}">{{ with .Site.Params.contact.email }}{{ . }}{{ end }}</a></p>
             </div>
+	    <div class="col-lg-8 col-lg-offset-2 text-center">
+		<i class="fa fa-globe fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="{{ with .Site.Params.contact.link }}{{ . }}{{ end }}">{{ with .Site.Params.contact.link }}{{ . }}{{ end }}</a></p>
+            </div>
         </div>
     </div>
 </section>
