@@ -111,3 +111,7 @@ theme = "hugo-creative-theme"
             email = "Email"
             message = "Message"
             submit = "Send message"
+
+    # Sitemap Page
+    [params.sitemap]
+    headline = "Sitemap"

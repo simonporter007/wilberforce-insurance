@@ -202,7 +202,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/wilberforcetravelinsurance.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -512,5 +512,15 @@ body {
 .bg-primary {
     /*background: rgb(104,201,237);*/
     background: #60c7ee;
+}
+.mt20 {
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 11px;
+}
+#sitemap-list {
+    font-weight: 700;
 }
 

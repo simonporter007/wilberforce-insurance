@@ -1,0 +1,15 @@
+{{ "<!-- SITEMAP -->" | safeHTML }}
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.sitemap.headline }}{{ . }}{{ end }}</h2>
+                <hr class="light">
+                <ul id="sitemap-list" class="bold text-left">
+                    <li><a href="/">Index</a></li>
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
